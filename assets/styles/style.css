@@ -1,0 +1,92 @@
+body {
+  background-color: #cecece;
+}
+
+.check {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 2;
+}
+
+em {
+  font-size: 50px;
+}
+
+.row1,
+.row2,
+.row3,
+.row4,
+.row5,
+.row6,
+.row7,
+.row8 {
+  display: flex;
+}
+
+button {
+  padding: 2vw;
+  border: 1px solid #000;
+}
+
+.gn {
+  background-color: #9b4343;
+  cursor: pointer;
+}
+
+/* .gn:hover {
+  background-color: #adff2f;
+} */
+
+.wt {
+  background-color: #000;
+  cursor: pointer;
+}
+
+/* .wt:hover {
+  background-color: #fff;
+} */
+
+.attack-btn {
+  margin-top: 10px;
+  display: flex;
+  gap: 14vw;
+}
+
+.attack,
+.refresh {
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.attack {
+  background-color: greenyellow;
+}
+
+.attack:hover {
+  background-color: #9b4343;
+  cursor: pointer;
+  color: #fff;
+}
+
+.refresh {
+  font-weight: bolder;
+}
+
+.refresh:hover {
+  background-color: #000;
+  cursor: pointer;
+  color: #fff;
+}
+
+.display,
+.displayall {
+  /*   position: absolute;
+  margin-left: 210px;
+  margin-top: -1px; */
+  font-size: xx-large;
+  font-weight: bolder;
+}
