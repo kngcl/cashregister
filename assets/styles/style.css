@@ -1,92 +1,68 @@
-body {
-  background-color: #cecece;
+/* Global Rules */
+* {
+  box-sizing: border-box;
+  line-height: 2.5;
 }
 
-.check {
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-  align-items: center;
-  line-height: 2;
-}
-
-em {
-  font-size: 50px;
-}
-
-.row1,
-.row2,
-.row3,
-.row4,
-.row5,
-.row6,
-.row7,
-.row8 {
-  display: flex;
-}
-
-button {
-  padding: 2vw;
-  border: 1px solid #000;
-}
-
-.gn {
-  background-color: #9b4343;
-  cursor: pointer;
-}
-
-/* .gn:hover {
-  background-color: #adff2f;
-} */
-
-.wt {
-  background-color: #000;
-  cursor: pointer;
-}
-
-/* .wt:hover {
-  background-color: #fff;
-} */
-
-.attack-btn {
-  margin-top: 10px;
-  display: flex;
-  gap: 14vw;
-}
-
-.attack,
-.refresh {
-  padding: 1rem 2rem;
-  border-radius: 5px;
-  font-weight: bolder;
-  font-size: 20px;
-}
-
-.attack {
-  background-color: greenyellow;
-}
-
-.attack:hover {
-  background-color: #9b4343;
-  cursor: pointer;
-  color: #fff;
-}
-
-.refresh {
-  font-weight: bolder;
-}
-
-.refresh:hover {
-  background-color: #000;
-  cursor: pointer;
-  color: #fff;
-}
-
-.display,
-.displayall {
-  /*   position: absolute;
-  margin-left: 210px;
-  margin-top: -1px; */
+.title {
+  text-align: center;
   font-size: xx-large;
-  font-weight: bolder;
+  font-weight: 900;
+}
+
+form{
+  border: 1px solid black;
+  padding: 1.5rem;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px #917575;
+}
+
+body, html {
+  font-family: Helvetica, sans-serif;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Class Definitions */
+.form-row {
+  align-items: center;
+  display: flex;
+  font-size: 1em;
+  justify-content: space-between;
+  margin: 2px;
+  width: 500px;
+  gap: 4px;
+}
+
+.txt-input {
+  border: none;
+  border-radius: 4px;
+  font-size: 1em;
+  height: 30px;
+  text-align: left;
+}
+
+/* ID Definitions */
+#container {
+  align-items: center;
+  background-color: darkgray;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  width: 100vw;
+}
+
+#result {
+  height: 30px;
+  font-weight: 900;
+}
+
+.calulate {
+  padding: 1rem;
+  border-radius: 10px;
+  border: 1px solid #cecece;
+  font-weight: 900;
+  cursor: pointer;
 }

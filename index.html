@@ -12,7 +12,60 @@
     />
   </head>
   <body>
-         
+    <main>
+     
+      <div id="container">
+        <form action="" id="cash-register">
+          <p class="title">Cash Register</p>
+          <div class="form-row">
+            <label for="price">Price:</label>
+            <input type="text" class="txt-input" id="price" autocomplete="off">
+            <label for="cash">Cash:</label>
+            <input type="text" class="txt-input" id="cash" autocomplete="off">
+          </div>
+          <div class="form-row">
+            <label for="one-hundred">One Hundred :</label>
+            <input type="text" class="txt-input" id="one-hundred" value="0" autocomplete="off" onfocus="if(this.value == '0') {this.value = '';}">
+          </div>
+          <div class="form-row">
+            <label for="twenty">Twenty :</label>
+            <input type="text" class="txt-input" id="twenty" value="0" autocomplete="off" onfocus="if(this.value == '0') {this.value = '';}">
+          </div>
+          <div class="form-row">
+            <label for="ten">Ten :</label>
+            <input type="text" class="txt-input" id="ten" value="0" autocomplete="off" onfocus="if(this.value == '0') {this.value = '';}">
+          </div>
+          <div class="form-row">
+            <label for="five">Five :</label>
+            <input type="text" class="txt-input" id="five" value="0" autocomplete="off" onfocus="if(this.value == '0') {this.value = '';}">
+          </div>
+          <div class="form-row">
+            <label for="one">One :</label>
+            <input type="text" class="txt-input" id="one" value="0" autocomplete="off" onfocus="if(this.value == '0') {this.value = '';}">
+          </div>
+          <div class="form-row">
+            <label for="quarter">Quarter :</label>
+            <input type="text" class="txt-input" id="quarter" value="0" autocomplete="off" onfocus="if(this.value == '0') {this.value = '';}">
+          </div>
+          <div class="form-row">
+            <label for="dime">Dime :</label>
+            <input type="text" class="txt-input" id="dime" value="0" autocomplete="off" onfocus="if(this.value == '0') {this.value = '';}">
+          </div>
+          <div class="form-row">
+            <label for="nickel">Nickel :</label>
+            <input type="text" class="txt-input" id="nickel" value="0" autocomplete="off" onfocus="if(this.value == '0') {this.value = '';}">
+          </div>
+          <div class="form-row">
+            <label for="penny">Penny ;</label>
+            <input type="text" class="txt-input" id="penny" value="0" autocomplete="off" onfocus="if(this.value == '0') {this.value = '';}">
+          </div>
+          <div class="form-row">
+            <button id="submit-btn" class="calulate">Calculate</button>
+          </div>
+        </form>
+        <p id="result"></p>
+      </div>
+     
     <script src="assets/scripts/script.js"></script>
   </body>
 </html>
