@@ -10,14 +10,15 @@
   font-weight: 900;
 }
 
-form{
+form {
   border: 1px solid black;
   padding: 1.5rem;
   border-radius: 5px;
   box-shadow: 5px 5px 10px #917575;
 }
 
-body, html {
+body,
+html {
   font-family: Helvetica, sans-serif;
   font-size: 100%;
   margin: 0;
